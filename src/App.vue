@@ -30,5 +30,8 @@ export default {
 </script>
 
 <style>
-
+body {
+    font-family: Ubuntu;
+    color: #555;
+}
 </style>

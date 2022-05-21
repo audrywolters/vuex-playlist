@@ -12,10 +12,9 @@
 
 <script>
 export default {
-    
-    data () {
-        return {
-    
+    computed: {
+        productList() {
+            return this.$store.state.productList
         }
     }
 }
